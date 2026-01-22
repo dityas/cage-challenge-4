@@ -1,0 +1,9 @@
+[project]
+name = "cyborg"
+version = "4.0"
+description = "A Cyber Security Research Environment"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["Requirements.txt"]}
